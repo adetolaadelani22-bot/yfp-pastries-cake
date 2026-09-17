@@ -1,0 +1,8 @@
+{
+  "name": "YFP Pastries & Cakes",
+  "description": "Premium Nigerian bakery and cake ordering platform by Yatex's Food Plug (YFP) featuring custom cake builder, real-time checkout, delivery tracking, and administrative controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

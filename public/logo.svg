@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C59B4B" />
+      <stop offset="30%" stop-color="#E5C77A" />
+      <stop offset="50%" stop-color="#BE9243" />
+      <stop offset="70%" stop-color="#F3DC9B" />
+      <stop offset="100%" stop-color="#AA7E30" />
+    </linearGradient>
+    <linearGradient id="hatShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF1D9" />
+      <stop offset="100%" stop-color="#EED596" />
+    </linearGradient>
+    <linearGradient id="pinkFrosting" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8BBD0" />
+      <stop offset="50%" stop-color="#F06292" />
+      <stop offset="100%" stop-color="#E91E63" />
+    </linearGradient>
+    <filter id="subtleDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="#FFFFFF" />
+
+  <!-- Outer Metallic Gold Rings -->
+  <circle cx="250" cy="250" r="236" fill="none" stroke="url(#goldRing)" stroke-width="5" />
+  <circle cx="250" cy="250" r="228" fill="none" stroke="url(#goldRing)" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- CHEF HAT (Centered above YFP) -->
+  <g transform="translate(205, 80)">
+    <!-- Hat Puffs -->
+    <path d="M 45,75 C 20,70 10,50 15,35 C 18,20 35,15 45,22 C 50,8 70,5 82,14 C 95,5 115,8 120,22 C 130,15 147,20 150,35 C 155,50 145,70 120,75 Z"
+          fill="url(#hatShine)" stroke="#3E1E14" stroke-width="4" stroke-linejoin="round" />
+    <!-- Hat pleat lines -->
+    <path d="M 48,32 C 55,50 58,68 60,74" fill="none" stroke="#B38938" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 82,18 C 84,40 85,58 86,74" fill="none" stroke="#B38938" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 116,32 C 110,50 106,68 104,74" fill="none" stroke="#B38938" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Hat Brim Band -->
+    <path d="M 40,75 C 65,85 100,85 125,75 C 130,82 125,92 120,93 C 95,100 68,100 45,93 C 40,92 37,82 40,75 Z"
+          fill="#3E1E14" stroke="#3E1E14" stroke-width="2" />
+    <path d="M 48,84 C 70,92 95,92 117,84" fill="none" stroke="url(#goldRing)" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- YFP MONOGRAM -->
+  <g fill="#3E1E14">
+    <!-- Flourishing Y -->
+    <!-- Left flourish tail curling gracefully -->
+    <path d="M 52,192 C 58,160 85,150 112,156 C 138,162 148,185 140,215 C 135,232 122,246 108,252 C 92,258 75,252 68,240 C 60,226 65,206 82,198 C 96,192 108,198 110,208 C 111,215 106,220 100,219 C 96,218 92,212 94,206 C 90,210 82,215 84,224 C 88,235 104,236 116,225 C 128,212 135,188 122,174 C 108,160 82,168 74,192 C 68,215 82,255 125,268 C 158,278 190,268 202,248 L 222,185 C 226,172 220,168 208,168 L 195,168 L 195,156 L 260,156 L 260,168 L 246,168 C 235,168 230,174 227,185 L 198,266 C 192,282 178,290 162,290 C 145,290 128,285 115,276 C 82,255 60,225 52,192 Z" />
+
+    <!-- Y Right Branch & Stem join -->
+    <path d="M 160,156 L 210,156 L 210,168 L 198,168 C 188,168 184,174 180,186 L 165,232 L 142,182 C 138,172 142,168 152,168 L 160,168 Z" />
+
+    <!-- Strong Letter F -->
+    <path d="M 215,168 L 215,156 L 305,156 C 305,168 290,175 282,192 L 268,192 L 268,214 L 285,214 C 290,214 294,218 294,224 C 294,230 290,234 285,234 L 268,234 L 268,268 C 268,276 274,280 284,280 L 295,280 L 295,292 L 225,292 L 225,280 L 236,280 C 246,280 250,276 250,268 L 250,180 C 250,172 246,168 236,168 Z" />
+
+    <!-- Flourish underline accent beneath Y & F -->
+    <path d="M 132,290 C 160,270 195,268 228,284 C 245,292 258,292 270,286 C 260,296 242,298 226,290 C 196,275 168,278 140,295 Z" fill="#3E1E14" />
+
+    <!-- Letter P -->
+    <path d="M 295,168 L 295,156 L 362,156 C 388,156 405,172 405,198 C 405,224 386,242 360,242 L 330,242 L 330,268 C 330,276 335,280 345,280 L 355,280 L 355,292 L 285,292 L 285,280 L 295,280 C 305,280 310,276 310,268 L 310,180 C 310,172 305,168 295,168 Z M 330,174 L 330,224 L 358,224 C 374,224 385,214 385,198 C 385,182 374,174 358,174 Z" />
+  </g>
+
+  <!-- CUPCAKE (To the right of P) -->
+  <g transform="translate(365, 142)">
+    <!-- Cupcake Liner / Base -->
+    <path d="M 12,110 L 22,160 C 23,165 27,168 32,168 L 78,168 C 83,168 87,165 88,160 L 98,110 Z"
+          fill="#3E1E14" />
+    <!-- Liner pleats -->
+    <line x1="28" y1="112" x2="36" y2="166" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="44" y1="112" x2="48" y2="166" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="60" y1="112" x2="60" y2="166" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="76" y1="112" x2="72" y2="166" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="90" y1="112" x2="84" y2="166" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Swirled Pink Frosting Layers -->
+    <!-- Bottom Swirl -->
+    <path d="M 5,112 C 3,98 25,92 55,92 C 85,92 107,98 105,112 C 103,118 8,118 5,112 Z"
+          fill="url(#pinkFrosting)" stroke="#FFFFFF" stroke-width="2" />
+    <!-- Mid Swirl -->
+    <path d="M 16,94 C 18,78 38,72 55,72 C 75,72 94,78 92,94 C 85,100 25,100 16,94 Z"
+          fill="#F48FB1" stroke="#FFFFFF" stroke-width="2" />
+    <!-- Top Peak Swirl -->
+    <path d="M 28,74 C 32,58 45,50 55,48 C 65,50 78,58 80,74 C 72,80 38,80 28,74 Z"
+          fill="#F06292" stroke="#FFFFFF" stroke-width="1.5" />
+    <!-- Highlight shimmer on frosting -->
+    <path d="M 24,90 C 35,84 65,84 84,90" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Pink Heart on Cupcake Peak -->
+    <path d="M 55,42 C 55,42 43,30 43,18 C 43,9 50,4 57,7 C 62,9 65,15 65,15 C 65,15 68,9 73,7 C 80,4 87,9 87,18 C 87,30 75,42 75,42 L 65,52 Z"
+          transform="scale(0.65) translate(30, -5)"
+          fill="#E91E63" stroke="#FFFFFF" stroke-width="2" />
+  </g>
+
+  <!-- SCRIPT TEXT: pastries & cakes -->
+  <g fill="#3E1E14" text-anchor="middle">
+    <text x="250" y="348"
+          font-family="'Playfair Display', Georgia, serif"
+          font-size="44"
+          font-style="italic"
+          font-weight="700"
+          letter-spacing="0.5">
+      pastries &amp; cakes
+    </text>
+  </g>
+
+  <!-- DIVIDER LINE WITH PINK HEART -->
+  <g transform="translate(125, 372)">
+    <line x1="0" y1="6" x2="108" y2="6" stroke="#3E1E14" stroke-width="1.5" />
+    <!-- Pink Heart -->
+    <path d="M 125,16 C 125,16 116,6 116,-2 C 116,-8 121,-12 125,-8 C 129,-12 134,-8 134,-2 C 134,6 125,16 125,16 Z"
+          fill="#E91E63" transform="scale(0.8) translate(31, 8)" />
+    <line x1="142" y1="6" x2="250" y2="6" stroke="#3E1E14" stroke-width="1.5" />
+  </g>
+
+  <!-- BOTTOM TAGLINE: FRESHLY BAKED · ALWAYS WITH LOVE -->
+  <g fill="#3E1E14" text-anchor="middle">
+    <text x="250" y="415"
+          font-family="'Plus Jakarta Sans', -apple-system, sans-serif"
+          font-size="13"
+          font-weight="700"
+          letter-spacing="4.5">
+      FRESHLY BAKED  ·  ALWAYS WITH LOVE
+    </text>
+  </g>
+</svg>

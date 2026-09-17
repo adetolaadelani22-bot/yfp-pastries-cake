@@ -1,0 +1,1036 @@
+{
+  "products": [
+    {
+      "id": "prod-sig-choc-cake",
+      "name": "Signature Chocolate Cake",
+      "slug": "signature-chocolate-cake",
+      "category": "Cakes",
+      "description": "Indulgent layers of moist, premium Belgian chocolate cake filled and frosted with our signature silky dark chocolate ganache. Perfect for celebrations or personal luxury. Handcrafted fresh to order.",
+      "price": 18000,
+      "rating": 4.8,
+      "reviewsCount": 120,
+      "stockQuantity": 25,
+      "availability": "in_stock",
+      "prepTime": "Ready in 4 hours or pre-order",
+      "sku": "YFP-CAKE-001",
+      "isFeatured": true,
+      "isBestseller": true,
+      "active": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "ingredients": [
+        "Belgian Dark Chocolate (70%)",
+        "Pure Butter",
+        "Organic Dutch Cocoa",
+        "Farm Fresh Eggs",
+        "Cane Sugar",
+        "Double Cream",
+        "Madagascar Vanilla"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Eggs"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "choices": [
+            {
+              "label": "6-inch",
+              "priceAdjustment": -6000
+            },
+            {
+              "label": "8-inch",
+              "priceAdjustment": 0,
+              "isDefault": true
+            },
+            {
+              "label": "10-inch",
+              "priceAdjustment": 7000
+            },
+            {
+              "label": "12-inch",
+              "priceAdjustment": 17000
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T04:52:22.996Z"
+    },
+    {
+      "id": "prod-meat-pie",
+      "name": "Premium Meat Pie",
+      "slug": "premium-meat-pie",
+      "category": "Pastries",
+      "description": "The gold standard Nigerian meat pie. Buttery, melt-in-your-mouth shortcrust pastry generously loaded with seasoned minced beef, potatoes, and tender carrots. Golden-baked every morning.",
+      "price": 800,
+      "rating": 4.9,
+      "reviewsCount": 310,
+      "stockQuantity": 80,
+      "availability": "in_stock",
+      "prepTime": "Freshly baked & ready for instant delivery",
+      "sku": "YFP-PAST-002",
+      "isFeatured": true,
+      "isBestseller": true,
+      "active": true,
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz2mH-Bx35v8kiC9Uh2-MFBWEVQcPF-svfXW3MGUHluQ&s=10"
+      ],
+      "ingredients": [
+        "Minced Lean Beef",
+        "Irish Potatoes",
+        "Carrots",
+        "Pastry Butter",
+        "Flour",
+        "Onions",
+        "YFP Spice Blend"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "options": [
+        {
+          "name": "Pack Option",
+          "choices": [
+            {
+              "label": "Single Pie (1 pc)",
+              "priceAdjustment": 0,
+              "isDefault": true
+            },
+            {
+              "label": "Pack of 4",
+              "priceAdjustment": 1500
+            },
+            {
+              "label": "Box of 10 (Party Pack)",
+              "priceAdjustment": 4300
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T06:42:14.136Z"
+    },
+    {
+      "id": "prod-glazed-doughnut",
+      "name": "Glazed Ring Doughnut",
+      "slug": "glazed-ring-doughnut",
+      "category": "Snacks",
+      "description": "Super soft, pillowy yeast-raised doughnut rings dipped in a warm, glossy vanilla bean sugar glaze. Light, airy, and delicately sweet.",
+      "price": 800,
+      "rating": 4.7,
+      "reviewsCount": 88,
+      "stockQuantity": 45,
+      "availability": "in_stock",
+      "prepTime": "Available now",
+      "sku": "YFP-SNAK-003",
+      "isFeatured": false,
+      "isBestseller": true,
+      "active": true,
+      "images": [
+        "https://images.unsplash.com/photo-1527515862127-a4fc05baf7a5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80"
+      ],
+      "ingredients": [
+        "Wheat Flour",
+        "Yeast",
+        "Pure Butter",
+        "Whole Milk",
+        "Vanilla Sugar Glaze"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Eggs"
+      ],
+      "options": [
+        {
+          "name": "Quantity",
+          "choices": [
+            {
+              "label": "Single Doughnut",
+              "priceAdjustment": 0,
+              "isDefault": true
+            },
+            {
+              "label": "Box of 4",
+              "priceAdjustment": 2200
+            },
+            {
+              "label": "Box of 6",
+              "priceAdjustment": 3800
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T04:52:22.996Z"
+    },
+    {
+      "id": "prod-fish-pie",
+      "name": "Flaky Fish Pie",
+      "slug": "flaky-fish-pie",
+      "category": "Pastries",
+      "description": "Deliciously flaky golden crust filled with fresh ocean mackerel, sweet bell peppers, sweetcorn, and delicate savory herbs. A customer favorite for seafood lovers.",
+      "price": 600,
+      "rating": 4.8,
+      "reviewsCount": 64,
+      "stockQuantity": 30,
+      "availability": "in_stock",
+      "prepTime": "Freshly baked",
+      "sku": "YFP-PAST-004",
+      "isFeatured": false,
+      "isBestseller": false,
+      "active": true,
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR6rzBliLU6TvlJ3lycFeeBttbQXuEnOS-CQ10khNTTeAF6kgYCnxyvWXeH4ZMC1rPCK1SoqMGTCYR7e-v1IqxyYFTNC4mKj7jx9bd7D9W&s=10"
+      ],
+      "ingredients": [
+        "Mackerel Fish",
+        "Sweetcorn",
+        "Onions",
+        "Pastry Butter",
+        "White Pepper",
+        "Wheat Flour"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Fish"
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T06:37:31.055Z"
+    },
+    {
+      "id": "prod-scotch-egg",
+      "name": "Scotch Egg",
+      "slug": "scotch-egg",
+      "category": "Snacks",
+      "description": "A hard-boiled farm-fresh egg wrapped in spiced minced pork and beef sausage meat, breaded in seasoned panko crumbs, and deep-fried to a golden crunch.",
+      "price": 800,
+      "rating": 4.8,
+      "reviewsCount": 52,
+      "stockQuantity": 35,
+      "availability": "in_stock",
+      "prepTime": "Ready to eat",
+      "sku": "YFP-SNAK-005",
+      "isFeatured": false,
+      "isBestseller": false,
+      "active": true,
+      "images": [
+        "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "ingredients": [
+        "Farm Fresh Eggs",
+        "Minced Sausage Meat",
+        "Nutmeg",
+        "Breadcrumbs",
+        "Herbs"
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs"
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T04:52:22.996Z"
+    },
+    {
+      "id": "prod-sausage-roll",
+      "name": "Sausage Roll",
+      "slug": "sausage-roll",
+      "category": "Pastries",
+      "description": "Flaky puff pastry wrapped around savory seasoned sausage meat. Golden brushed with egg wash and baked crisp.",
+      "price": 600,
+      "rating": 4.7,
+      "reviewsCount": 95,
+      "stockQuantity": 50,
+      "availability": "in_stock",
+      "prepTime": "Fresh daily",
+      "sku": "YFP-PAST-006",
+      "isFeatured": true,
+      "isBestseller": true,
+      "active": true,
+      "images": [
+        "data:image/jpeg;base64,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"
+      ],
+      "ingredients": [
+        "Seasoned Sausage Meat",
+        "Puff Pastry",
+        "Thyme",
+        "Garlic",
+        "Egg Glaze"
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs"
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T06:38:27.073Z"
+    },
+    {
+      "id": "prod-chin-chin",
+      "name": "Chin Chin Pack (500g)",
+      "slug": "chin-chin-pack",
+      "category": "Snacks",
+      "description": "Addictively crunchy, sweet Nigerian chin chin made with real butter, condensed milk, and warm nutmeg. Perfectly cut and fried to a golden golden crunch.",
+      "price": 2500,
+      "rating": 4.9,
+      "reviewsCount": 180,
+      "stockQuantity": 60,
+      "availability": "in_stock",
+      "prepTime": "Sealed & ready for dispatch",
+      "sku": "YFP-SNAK-007",
+      "isFeatured": true,
+      "isBestseller": true,
+      "active": true,
+      "images": [
+        "data:image/jpeg;base64,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"
+      ],
+      "ingredients": [
+        "Wheat Flour",
+        "Pure Butter",
+        "Sugar",
+        "Milk",
+        "Nutmeg",
+        "Vegetable Oil"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "options": [
+        {
+          "name": "Pack Size",
+          "choices": [
+            {
+              "label": "Standard Pack (500g)",
+              "priceAdjustment": 0,
+              "isDefault": true
+            },
+            {
+              "label": "Jumbo Tub (1kg)",
+              "priceAdjustment": 2200
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T06:42:52.634Z"
+    },
+    {
+      "id": "prod-mini-chops",
+      "name": "Mini Chops Platter",
+      "slug": "mini-chops-platter",
+      "category": "Small Chops",
+      "description": "The ultimate Nigerian party box. Contains 5 crispy beef samosas, 5 vegetable spring rolls, 8 fluffy puff-puffs, and succulent peppered gizzard/chicken bites.",
+      "price": 4500,
+      "rating": 4.9,
+      "reviewsCount": 73,
+      "stockQuantity": 20,
+      "availability": "in_stock",
+      "prepTime": "30-45 minutes freshly made",
+      "sku": "YFP-CHOP-008",
+      "isFeatured": true,
+      "isBestseller": true,
+      "active": true,
+      "images": [
+        "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80"
+      ],
+      "ingredients": [
+        "Spring Rolls (5)",
+        "Samosas (5)",
+        "Puff Puff (8)",
+        "Peppered Chicken",
+        "Chili Pepper Glaze"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T04:52:22.996Z"
+    },
+    {
+      "id": "prod-red-velvet",
+      "name": "Red Velvet Cream Cheese Cake",
+      "slug": "red-velvet-cream-cheese-cake",
+      "category": "Cakes",
+      "description": "Vibrant crimson velvet sponge with hints of cocoa, paired with luscious whipped Philadelphia cream cheese frosting and white chocolate curls.",
+      "price": 19500,
+      "rating": 4.9,
+      "reviewsCount": 94,
+      "stockQuantity": 18,
+      "availability": "in_stock",
+      "prepTime": "Ready in 4 hours",
+      "sku": "YFP-CAKE-009",
+      "isFeatured": true,
+      "isBestseller": false,
+      "active": true,
+      "images": [
+        "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "ingredients": [
+        "Buttermilk",
+        "Cocoa Powder",
+        "Philadelphia Cream Cheese",
+        "Butter",
+        "Flour",
+        "Natural Red Colorant"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Eggs"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "choices": [
+            {
+              "label": "6-inch",
+              "priceAdjustment": -6500
+            },
+            {
+              "label": "8-inch",
+              "priceAdjustment": 0,
+              "isDefault": true
+            },
+            {
+              "label": "10-inch",
+              "priceAdjustment": 7500
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T04:52:22.996Z"
+    },
+    {
+      "id": "prod-custom-birthday-cake",
+      "name": "Custom Celebration Birthday Cake",
+      "slug": "custom-celebration-birthday-cake",
+      "category": "Celebration Cakes",
+      "description": "Showstopping handcrafted designer cake tailored to your event. Features custom color theme, edible golden leaf, customized acrylic or chocolate topper, and macarons.",
+      "price": 25000,
+      "rating": 5,
+      "reviewsCount": 46,
+      "stockQuantity": 10,
+      "availability": "in_stock",
+      "prepTime": "Requires 24-48 hours pre-order",
+      "sku": "YFP-CAKE-010",
+      "isFeatured": true,
+      "isBestseller": true,
+      "active": true,
+      "images": [
+        "/celebration-cake-cat.jpg",
+        "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=800&q=80"
+      ],
+      "ingredients": [
+        "Sponge of choice",
+        "Swiss Meringue Buttercream",
+        "Edible 24k Gold Flakes",
+        "French Macarons"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Eggs",
+        "Nuts (in macarons)"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "choices": [
+            {
+              "label": "8-inch (Serves 15)",
+              "priceAdjustment": 0,
+              "isDefault": true
+            },
+            {
+              "label": "10-inch (Serves 25)",
+              "priceAdjustment": 10000
+            },
+            {
+              "label": "2-Tier (8\" + 6\")",
+              "priceAdjustment": 25000
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-17T04:52:22.996Z",
+      "updatedAt": "2026-09-17T04:52:22.996Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-pastries",
+      "name": "Pastries",
+      "slug": "pastries",
+      "image": "/pastries-cat.jpg",
+      "description": "Flaky golden meat pies, fish pies, sausage rolls and savory treats.",
+      "itemCount": 4,
+      "active": true
+    },
+    {
+      "id": "cat-cakes",
+      "name": "Cakes",
+      "slug": "cakes",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+      "description": "Rich layered chocolate, red velvet, vanilla cream & celebration cakes.",
+      "itemCount": 4,
+      "active": true
+    },
+    {
+      "id": "cat-snacks",
+      "name": "Snacks",
+      "slug": "snacks",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80",
+      "description": "Crunchy Nigerian chin chin, doughnuts, and scotch eggs.",
+      "itemCount": 3,
+      "active": true
+    },
+    {
+      "id": "cat-chops",
+      "name": "Small Chops",
+      "slug": "small-chops",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+      "description": "Authentic Nigerian party finger food boxes and mini chops.",
+      "itemCount": 2,
+      "active": true
+    },
+    {
+      "id": "cat-celebration",
+      "name": "Celebration Cakes",
+      "slug": "celebration-cakes",
+      "image": "/celebration-cake-cat.jpg",
+      "description": "Bespoke tiered cakes for birthdays, weddings and milestones.",
+      "itemCount": 2,
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-101",
+      "orderNumber": "YFP-2026-000101",
+      "customer": {
+        "fullName": "Amaka Eze",
+        "email": "amaka@example.com",
+        "phone": "+2348031234567"
+      },
+      "deliveryMethod": "delivery",
+      "deliveryDetails": {
+        "address": "14 Admiralty Way, Flat 3B",
+        "area": "Lekki Phase 1",
+        "city": "Lagos",
+        "deliveryTimePreference": "asap",
+        "orderNotes": "Please call when security gate arrives"
+      },
+      "items": [
+        {
+          "productId": "prod-sig-choc-cake",
+          "name": "Signature Chocolate Cake",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+          "unitPrice": 18000,
+          "quantity": 1,
+          "totalPrice": 18000,
+          "selectedSize": "8-inch",
+          "inscription": "Happy 30th Birthday Amaka!"
+        },
+        {
+          "productId": "prod-meat-pie",
+          "name": "Premium Meat Pie",
+          "image": "https://images.unsplash.com/photo-1621236378699-8597fee6a1ce?auto=format&fit=crop&w=800&q=80",
+          "unitPrice": 2000,
+          "quantity": 1,
+          "totalPrice": 2000,
+          "selectedSize": "Pack of 4"
+        }
+      ],
+      "subtotal": 20000,
+      "deliveryFee": 1000,
+      "discountAmount": 2000,
+      "couponCode": "YFP10",
+      "totalAmount": 19000,
+      "paymentMethod": "paystack",
+      "paymentStatus": "paid",
+      "paymentReference": "PSTK_REF_9812401",
+      "orderStatus": "out_for_delivery",
+      "timeline": [
+        {
+          "status": "order_received",
+          "timestamp": "2026-09-17T01:52:22.997Z",
+          "note": "Order received via Paystack checkout"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-09-17T01:58:22.997Z",
+          "note": "Payment of ₦19,000 confirmed"
+        },
+        {
+          "status": "preparing",
+          "timestamp": "2026-09-17T02:52:22.997Z",
+          "note": "Baker Yatex started preparing chocolate cake"
+        },
+        {
+          "status": "ready",
+          "timestamp": "2026-09-17T04:04:22.997Z",
+          "note": "Order packaged in thermal delivery box"
+        },
+        {
+          "status": "out_for_delivery",
+          "timestamp": "2026-09-17T04:34:22.997Z",
+          "note": "Dispatched with YFP dispatch rider (Ibrahim)"
+        }
+      ],
+      "createdAt": "2026-09-17T01:52:22.997Z",
+      "updatedAt": "2026-09-17T04:34:22.997Z"
+    }
+  ],
+  "customCakes": [
+    {
+      "id": "cake-req-1",
+      "requestId": "YFP-CAKE-20260917-001",
+      "customer": {
+        "name": "Dr. Somtochukwu",
+        "email": "somto@example.com",
+        "phone": "+2348189876543"
+      },
+      "cakeSize": "10-inch (Serves 20-25)",
+      "flavor": "Belgian Chocolate & Red Velvet Swirl",
+      "layers": 3,
+      "frosting": "Buttercream",
+      "inscription": "Happy 50th Golden Jubilee Daddy!",
+      "referenceImage": "/celebration-cake-cat.jpg",
+      "specialInstructions": "Royal blue theme with gold drip and edible chocolate balls. Need it delivered before 1 PM.",
+      "preferredDeliveryDate": "2026-09-22",
+      "deliveryType": "delivery",
+      "deliveryAddress": "Victoria Garden City (VGC), Lekki",
+      "estimatedPrice": 38000,
+      "quotedPrice": 42000,
+      "status": "quote_sent",
+      "adminNotes": "Custom gold leaf and acrylic topper requested. Price approved with ₦4,000 topper supplement.",
+      "createdAt": "2026-09-16T04:52:22.997Z"
+    }
+  ],
+  "cateringRequests": [],
+  "deliveryZones": [
+    {
+      "id": "zone-osun",
+      "name": "Osun State (Ila-Orangun, Osogbo, Ife, Ede)",
+      "fee": 1500,
+      "estimatedDeliveryHours": "Same Day (1-3 hrs)",
+      "active": true
+    },
+    {
+      "id": "zone-lagos",
+      "name": "Lagos State (Island, Mainland & Lekki)",
+      "fee": 3500,
+      "estimatedDeliveryHours": "Next Day Express",
+      "active": true
+    },
+    {
+      "id": "zone-abuja",
+      "name": "Abuja (FCT)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "1-2 Days Express",
+      "active": true
+    },
+    {
+      "id": "zone-oyo",
+      "name": "Oyo State (Ibadan, Ogbomoso, Oyo)",
+      "fee": 2500,
+      "estimatedDeliveryHours": "Same Day / Next Day",
+      "active": true
+    },
+    {
+      "id": "zone-ogun",
+      "name": "Ogun State (Abeokuta, Ijebu, Sagamu)",
+      "fee": 3000,
+      "estimatedDeliveryHours": "Next Day Express",
+      "active": true
+    },
+    {
+      "id": "zone-ondo",
+      "name": "Ondo State (Akure, Ondo Town, Owo)",
+      "fee": 3000,
+      "estimatedDeliveryHours": "Next Day Express",
+      "active": true
+    },
+    {
+      "id": "zone-ekiti",
+      "name": "Ekiti State (Ado-Ekiti, Ikere)",
+      "fee": 3000,
+      "estimatedDeliveryHours": "Next Day Express",
+      "active": true
+    },
+    {
+      "id": "zone-kwara",
+      "name": "Kwara State (Ilorin, Offa)",
+      "fee": 2500,
+      "estimatedDeliveryHours": "Next Day Express",
+      "active": true
+    },
+    {
+      "id": "zone-kogi",
+      "name": "Kogi State (Lokoja, Okene)",
+      "fee": 3500,
+      "estimatedDeliveryHours": "1-2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-edo",
+      "name": "Edo State (Benin City, Auchi)",
+      "fee": 3500,
+      "estimatedDeliveryHours": "1-2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-delta",
+      "name": "Delta State (Asaba, Warri)",
+      "fee": 4000,
+      "estimatedDeliveryHours": "1-2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-rivers",
+      "name": "Rivers State (Port Harcourt)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "1-2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-enugu",
+      "name": "Enugu State (Enugu, Nsukka)",
+      "fee": 4000,
+      "estimatedDeliveryHours": "1-2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-anambra",
+      "name": "Anambra State (Awka, Onitsha)",
+      "fee": 4000,
+      "estimatedDeliveryHours": "1-2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-imo",
+      "name": "Imo State (Owerri)",
+      "fee": 4000,
+      "estimatedDeliveryHours": "1-2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-abia",
+      "name": "Abia State (Umuahia, Aba)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-akwa-ibom",
+      "name": "Akwa Ibom State (Uyo, Eket)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-cross-river",
+      "name": "Cross River State (Calabar)",
+      "fee": 5000,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-bayelsa",
+      "name": "Bayelsa State (Yenagoa)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-ebonyi",
+      "name": "Ebonyi State (Abakaliki)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-benue",
+      "name": "Benue State (Makurdi)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-plateau",
+      "name": "Plateau State (Jos)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-nasarawa",
+      "name": "Nasarawa State (Lafia, Karu)",
+      "fee": 4000,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-niger",
+      "name": "Niger State (Minna, Suleja)",
+      "fee": 4000,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-kaduna",
+      "name": "Kaduna State (Kaduna, Zaria)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-kano",
+      "name": "Kano State (Kano City)",
+      "fee": 4500,
+      "estimatedDeliveryHours": "2 Days",
+      "active": true
+    },
+    {
+      "id": "zone-katsina",
+      "name": "Katsina State (Katsina)",
+      "fee": 5000,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-bauchi",
+      "name": "Bauchi State (Bauchi)",
+      "fee": 5000,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-gombe",
+      "name": "Gombe State (Gombe)",
+      "fee": 5000,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-adamawa",
+      "name": "Adamawa State (Yola)",
+      "fee": 5500,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-taraba",
+      "name": "Taraba State (Jalingo)",
+      "fee": 5500,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-borno",
+      "name": "Borno State (Maiduguri)",
+      "fee": 6000,
+      "estimatedDeliveryHours": "3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-yobe",
+      "name": "Yobe State (Damaturu)",
+      "fee": 6000,
+      "estimatedDeliveryHours": "3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-jigawa",
+      "name": "Jigawa State (Dutse)",
+      "fee": 5500,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-kebbi",
+      "name": "Kebbi State (Birnin Kebbi)",
+      "fee": 5500,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-sokoto",
+      "name": "Sokoto State (Sokoto City)",
+      "fee": 5500,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    },
+    {
+      "id": "zone-zamfara",
+      "name": "Zamfara State (Gusau)",
+      "fee": 5500,
+      "estimatedDeliveryHours": "2-3 Days",
+      "active": true
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coup-1",
+      "code": "YFP10",
+      "discountType": "percentage",
+      "value": 10,
+      "minOrderAmount": 3000,
+      "maxDiscount": 5000,
+      "active": true,
+      "timesUsed": 42
+    },
+    {
+      "id": "coup-2",
+      "code": "WELCOME",
+      "discountType": "fixed",
+      "value": 1500,
+      "minOrderAmount": 10000,
+      "active": true,
+      "timesUsed": 19
+    },
+    {
+      "id": "coup-3",
+      "code": "YATEXVIP",
+      "discountType": "percentage",
+      "value": 15,
+      "minOrderAmount": 20000,
+      "maxDiscount": 10000,
+      "active": true,
+      "timesUsed": 8
+    },
+    {
+      "id": "coup-1789627431045",
+      "code": "YATEX",
+      "discountType": "percentage",
+      "value": null,
+      "minOrderAmount": 5000,
+      "active": true,
+      "timesUsed": 0
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-sig-choc-cake",
+      "customerName": "Chioma A.",
+      "rating": 5,
+      "comment": "The best chocolate cake I have tasted in Lagos! So rich and moist without being overly sweet. Delivered right on time for my birthday party.",
+      "date": "2026-09-10",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-meat-pie",
+      "customerName": "Tunde O.",
+      "rating": 5,
+      "comment": "Proper meat pie with real chunks of meat, not just potato mash like others do. Flaky crust is pure heaven.",
+      "date": "2026-09-12",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-3",
+      "productId": "prod-chin-chin",
+      "customerName": "Folake D.",
+      "rating": 5,
+      "comment": "Crispy, fresh, not oily at all! My kids finished the 500g tub in two days. Ordering another immediately.",
+      "date": "2026-09-14",
+      "verifiedPurchase": true
+    }
+  ],
+  "contacts": [],
+  "settings": {
+    "businessName": "YFP Pastries & Cakes",
+    "tagline": "Yatex's Food Plug — Freshly Baked, Handcrafted Luxury in Osun & Nationwide Delivery",
+    "phone": "07064918034",
+    "whatsappPhone": "07064918034",
+    "email": "adetolaadelani22@gmail.com",
+    "address": "Ila-Orangun, Osun State, Nigeria",
+    "operatingHours": {
+      "weekdays": "Monday – Saturday: 7:00 AM – 9:00 PM",
+      "sundays": "Sunday: 8:00 AM – 6:00 PM"
+    },
+    "minimumOrder": 2000,
+    "currency": "NGN",
+    "deliveryNotice": "Fresh batches baked every morning from our Ila-Orangun bakery hub. Express delivery across all 36 Nigerian States + FCT Abuja!"
+  },
+  "auditLogs": [
+    {
+      "id": "log-1789627431046",
+      "timestamp": "2026-09-17T06:43:51.046Z",
+      "user": "Admin",
+      "action": "CREATE_COUPON",
+      "resource": "Coupons",
+      "details": "Created coupon code YATEX"
+    },
+    {
+      "id": "log-1789627372635",
+      "timestamp": "2026-09-17T06:42:52.635Z",
+      "user": "Admin",
+      "action": "UPDATE_PRODUCT",
+      "resource": "Products",
+      "details": "Updated product Chin Chin Pack (500g)"
+    },
+    {
+      "id": "log-1789627334137",
+      "timestamp": "2026-09-17T06:42:14.137Z",
+      "user": "Admin",
+      "action": "UPDATE_PRODUCT",
+      "resource": "Products",
+      "details": "Updated product Premium Meat Pie"
+    },
+    {
+      "id": "log-1789627107073",
+      "timestamp": "2026-09-17T06:38:27.073Z",
+      "user": "Admin",
+      "action": "UPDATE_PRODUCT",
+      "resource": "Products",
+      "details": "Updated product Sausage Roll"
+    },
+    {
+      "id": "log-1789627051055",
+      "timestamp": "2026-09-17T06:37:31.055Z",
+      "user": "Admin",
+      "action": "UPDATE_PRODUCT",
+      "resource": "Products",
+      "details": "Updated product Flaky Fish Pie"
+    },
+    {
+      "id": "log-1789626301426",
+      "timestamp": "2026-09-17T06:25:01.426Z",
+      "user": "Adetola Test",
+      "action": "REGISTER_CUSTOMER",
+      "resource": "Auth",
+      "details": "New customer account registered: testcustomer@example.com"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-09-17T04:52:22.997Z",
+      "user": "System",
+      "action": "INITIALIZATION",
+      "resource": "Database",
+      "details": "Platform database initialized with Lagos bakery seed data."
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-cust-1789626301425",
+      "name": "Adetola Test",
+      "email": "testcustomer@example.com",
+      "phone": "07064918034",
+      "role": "customer",
+      "createdAt": "2026-09-17T06:25:01.425Z"
+    }
+  ]
+}
