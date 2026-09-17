@@ -4,7 +4,7 @@ import { createServer as createViteServer } from 'vite';
 import { db } from './src/server/db';
 import { Order, OrderStatus, Product, CustomCakeRequest, CateringRequest, Review, ContactMessage, Coupon } from './src/types';
 
-async function startServer() {
+export async function createApp() {
   const app = express();
   const PORT = 3000;
 
@@ -882,9 +882,13 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`YFP Pastries & Cakes server listening on http://0.0.0.0:${PORT}`);
-  });
+  return app;
 }
 
-startServer();
+if (process.env.VERCEL !== '1') {
+  createApp().then((app) => {
+    app.listen(3000, '0.0.0.0', () => {
+      console.log('YFP Pastries & Cakes server listening on http://0.0.0.0:3000');
+    });
+  });
+}
